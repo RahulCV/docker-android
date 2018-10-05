@@ -1,13 +1,7 @@
-[![Travis](https://shields.beevelop.com/travis/beevelop/docker-android.svg?style=flat-square)](https://travis-ci.org/beevelop/docker-android)
-[![Docker Pulls](https://shields.beevelop.com/docker/pulls/beevelop/android.svg?style=flat-square)](https://links.beevelop.com/d-android)
-[![Layers](https://shields.beevelop.com/docker/image/layers/beevelop/android/latest.svg?style=flat-square)](https://links.beevelop.com/d-android)
-[![Size](https://shields.beevelop.com/docker/image/size/beevelop/android/latest.svg?style=flat-square)](https://links.beevelop.com/d-android)
-[![GitHub release](https://shields.beevelop.com/github/release/beevelop/docker-android.svg?style=flat-square)](https://github.com/beevelop/docker-android/releases)
-![Badges](https://shields.beevelop.com/badge/badges-7-brightgreen.svg?style=flat-square)
-[![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
+
 
 # Android 7 (SDK 25.X)
-### based on [beevelop/java](https://github.com/beevelop/docker-java)
+### based on [rahulcv/java](https://github.com/rahulcv/docker-java)
 - Ant 1.9.6
 - Maven 3.3.9
 - Java 1.8.0_111
@@ -23,24 +17,23 @@
 ----
 ### Pull from Docker Hub
 ```
-docker pull beevelop/android:latest
+docker pull rahulcv/android:latest
 ```
 
 ### Build from GitHub
 ```
-docker build -t beevelop/android github.com/beevelop/docker-android
+docker build -t rahulcv/android github.com/rahulcv/docker-android
 ```
 
 ### Run image
 ```
-docker run -it beevelop/android bash
+docker run -it rahulcv/android bash
 ```
 
 ### Use as base image
 ```Dockerfile
-FROM beevelop/android:latest
+FROM rahulcv/android:latest
 ```
 
 ----
 
-![One does not simply use latest](https://i.imgflip.com/1fgwxr.jpg)
